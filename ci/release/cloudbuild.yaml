@@ -1,0 +1,9 @@
+steps:
+  - name: hashicorp/packer:1.6.2
+    args:
+      - "validate"
+      - "base.json"
+  - name: hashicorp/packer:1.6.2
+    args:
+      - "build"
+      - "base.json"

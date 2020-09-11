@@ -1,0 +1,9 @@
+steps:
+  - name: 'gcr.io/minecraft-server-tiede/packer-builder:latest'
+    args:
+      - 'validate'
+      - 'base.json'
+  - name: 'gcr.io/minecraft-server-tiede/packer-builder:latest'
+    args:
+      - 'build'
+      - 'base.json'
