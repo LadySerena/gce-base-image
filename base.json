@@ -7,7 +7,7 @@
     {
       "type": "googlecompute",
       "project_id": "{{user `this_project`}}",
-      "image_name": "debian-10-base-{{user `tag_name`}}",
+      "image_name": "debian-10-base-v{{user `tag_name`}}",
       "image_description": "base debian 10 (buster) image for gce",
       "source_image_family": "debian-10",
       "image_family": "tel-base-debian-10",
