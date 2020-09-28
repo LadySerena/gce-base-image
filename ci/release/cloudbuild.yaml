@@ -6,4 +6,6 @@ steps:
   - name: hashicorp/packer:1.6.2
     args:
       - "build"
+      - "-var"
+      - "tag_name=$TAG_NAME"
       - "base.json"

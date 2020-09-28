@@ -1,6 +1,6 @@
 {
   "variables": {
-    "tag_name": "{{env `TAG_NAME`}}"
+    "tag_name": ""
   },
   "builders": [
     {
