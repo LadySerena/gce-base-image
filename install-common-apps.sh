@@ -9,6 +9,8 @@ curl -sSO https://dl.google.com/cloudagents/add-monitoring-agent-repo.sh
 sudo bash add-monitoring-agent-repo.sh
 sudo apt-get update
 sudo apt-cache madison stackdriver-agent
-sudo apt-get install -y 'stackdriver-agent=6.*'
+sudo apt-get install -y 'stackdriver-agent=6.*' 'lvm2'
 sudo systemctl enable stackdriver-agent
 sudo systemctl start stackdriver-agent
+
+
