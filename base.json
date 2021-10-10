@@ -6,10 +6,10 @@
     {
       "type": "googlecompute",
       "project_id": "telvanni-platform",
-      "image_name": "debian-10-base-v{{user `tag_name`}}",
-      "image_description": "base debian 10 (buster) image for gce",
-      "source_image_family": "debian-10",
-      "image_family": "tel-base-debian-10",
+      "image_name": "debian-11-base-v{{user `tag_name`}}",
+      "image_description": "base debian 11 (bullseye) image for gce",
+      "source_image_family": "debian-11",
+      "image_family": "tel-base-debian-11",
       "ssh_username": "packer",
       "zone": "us-central1-a"
     }
